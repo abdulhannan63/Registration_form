@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration | PHP Made page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="register">
+      <h1>Register</h1>
+      <form action="register.php" method="post">
+        <div>
+          <label for="username">Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            name="username"
+            id="password"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+        </div>
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>
